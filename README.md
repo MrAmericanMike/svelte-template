@@ -4,7 +4,7 @@
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template`
+`npx degit MrAmericanMike/svelte-template#base`
 
 `npm install`
 
