@@ -9,23 +9,38 @@
 	let page;
 	let params = {};
 
-	router("/", (ctx, next) => {
-		console.log(next);
-		params = ctx.params;
-		page = Home;
-	});
-	router("/about", (ctx, next) => {
-		params = ctx.params;
-		page = About;
-	});
-	router("/post/:id", (ctx, next) => {
-		params = ctx.params;
-		page = Post;
-	});
-	router("*", (ctx, next) => {
-		params = ctx.params;
-		page = Error404;
-	});
+	router(
+		"/",
+		(ctx, next) => {
+			params = ctx.params;
+			next();
+		},
+		() => (page = Home)
+	);
+	router(
+		"/about",
+		(ctx, next) => {
+			params = ctx.params;
+			next();
+		},
+		() => (page = About)
+	);
+	router(
+		"/post/:id",
+		(ctx, next) => {
+			params = ctx.params;
+			next();
+		},
+		() => (page = Post)
+	);
+	router(
+		"*",
+		(ctx, next) => {
+			params = ctx.params;
+			next();
+		},
+		() => (page = Error404)
+	);
 	router.start();
 
 	function isObjectEmpty(object) {
