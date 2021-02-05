@@ -1,0 +1,15 @@
+{
+	"name": "svelte-snowpack",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build"
+	},
+	"devDependencies": {
+		"@snowpack/plugin-svelte": "^3.5.2",
+		"eslint": "^7.19.0",
+		"snowpack": "^3.0.11",
+		"svelte": "^3.32.1"
+	},
+	"dependencies": {}
+}
