@@ -8,7 +8,7 @@ In the folder we want to install the template
 
 `npm install`
 
-`npm run dev`
+`npm run start`
 
 Installed on VSCode:
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
