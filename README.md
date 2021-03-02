@@ -1,6 +1,8 @@
 # Svelte-Ionic
 
 `Work in progress - Need to add Capacitor`
+`Ionic is installed as a devDependency but is not been used - Ionic is imported from a CDN`
+	This will have when I figure out the correct way to import this into the project.
 
 ### Usage:
 
