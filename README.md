@@ -21,6 +21,10 @@ Installed on VSCode:
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 * https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
 
+### What's missing?
+
+Still haven't added scripts to build the Electron App and let it ready to distribute. This could be done following [electron-builder](https://www.electron.build/) Documentation and OS Specific cases.
+
 ### VSCODE Workspace Settings
 
 ```json
