@@ -14,6 +14,12 @@ In the folder we want to install the template
 
 `npm run dev`
 
+## For a more complete base template check:
+
+> [Svelte Ionic App](https://github.com/Tommertom/svelte-ionic-app)
+
+***
+
 Installed on VSCode:
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 * https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
@@ -43,10 +49,12 @@ Installed on VSCode:
 }
 ```
 
-## Why?
+## Why this repo is even a thing?
 
-> It presets all the linting options I like (for the most part as I'm still working on it)
+* It presets most of the linting options I like
+* It provides a base to work with Svelte under different scenarios
 
-## For a more complete base template check:
+***
 
-> [Svelte Ionic App](https://github.com/Tommertom/svelte-ionic-app)
+## Any feedback is welcome, just create an [issue](https://github.com/MrAmericanMike/svelte-template/issues)
+
