@@ -17,6 +17,9 @@ In the folder we want to install the template
 
 `npm run dev`
 
+
+***
+
 Installed on VSCode:
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 * https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
@@ -50,7 +53,12 @@ Still haven't added scripts to build the Electron App and let it ready to distri
 }
 ```
 
-## Why?
+## Why this repo is even a thing?
 
-> It presets all the linting options I like (for the most part as I'm still working on it)
+* It presets most of the linting options I like
+* It provides a base to work with Svelte under different scenarios
+
+***
+
+## Any feedback is welcome, just create an [issue](https://github.com/MrAmericanMike/svelte-template/issues)
 
