@@ -1,14 +1,18 @@
-# Svelte-Base
+# Svelte-Template
 
-### Usage:
+## Usage:
 
-In the folder we want to install the template
+In the folder we want to clone the template you need to run this command, replacing the #branch with the desired one you want to use. For example, to get the `base` branch you would do:
 
-`npx degit MrAmericanMike/svelte-template`
+`npx degit MrAmericanMike/svelte-template#base`
 
 `npm install`
 
 `npm run dev`
+
+*Notice that some branches may require `npm run start` check each branch readme for more details*
+
+***
 
 Installed on VSCode:
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
@@ -39,7 +43,11 @@ Installed on VSCode:
 }
 ```
 
-## Why?
+## Why this repo is even a thing?
 
-> It presets all the linting options I like (for the most part as I'm still working on it)
+* It presets most of the linting options I like
+* It provides a base to work with Svelte under different scenarios
 
+***
+
+## Any feedback is welcome, just create an [issue](https://github.com/MrAmericanMike/svelte-template/issues)
