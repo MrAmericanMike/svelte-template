@@ -2,9 +2,9 @@
 
 ## Usage:
 
-In the folder we want to clone the template you need to run this command, replacing the #branch with the desired one you want to use. For example, to get the `base` branch you would do:
+In the folder we want to clone the template you need to run this command, replacing the #branch with the desired one you want to use. For example, to get the `basic` branch you would do:
 
-`npx degit MrAmericanMike/svelte-template#base`
+`npx degit MrAmericanMike/svelte-template#basic`
 
 `npm install`
 
