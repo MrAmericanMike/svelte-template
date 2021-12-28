@@ -1,10 +1,10 @@
-# Svelte-Base
+# Svelte-Basic
 
 ### Usage:
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#base`
+`npx degit MrAmericanMike/svelte-template#basic`
 
 `npm install`
 
