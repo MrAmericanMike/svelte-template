@@ -1,6 +1,6 @@
 # Svelte-Electron
 
-This templase uses the Svelte-Base branch and on top of it adds Electron.
+This template uses the Svelte-Base branch and on top of it adds Electron.
 Changes for this branch. `main.js` (The Svelte entry point) is now `app.js`
 (Changed `rollup.config.js` to reflect this change)
 `main.js` is the Electron App entry point.
