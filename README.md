@@ -10,8 +10,6 @@ In the folder we want to clone the template you need to run this command, replac
 
 `npm run dev`
 
-*Notice that some branches may require `npm run start` check each branch readme for more details*
-
 ***
 
 Installed on VSCode:
