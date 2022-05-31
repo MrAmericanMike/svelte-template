@@ -1,10 +1,10 @@
-# Svelte-Template
+# Svelte-Kit
 
-## Usage:
+### Usage:
 
-In the folder we want to clone the template you need to run this command, replacing the #branch with the desired one you want to use. For example, to get the `basic` branch you would do:
+In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#basic`
+`npx degit MrAmericanMike/svelte-template#kit`
 
 `npm install`
 
@@ -49,3 +49,4 @@ Installed on VSCode:
 ***
 
 ## Any feedback is welcome, just create an [issue](https://github.com/MrAmericanMike/svelte-template/issues)
+
