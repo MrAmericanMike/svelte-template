@@ -17,6 +17,7 @@ In the folder we want to install the template
 
 `npm run dev`
 
+`npm run electron`
 
 ***
 
@@ -26,7 +27,8 @@ Installed on VSCode:
 
 ### What's missing?
 
-Still haven't added scripts to build the Electron App and let it ready to distribute. This could be done following [electron-builder](https://www.electron.build/) Documentation and OS Specific cases.
+* Still haven't added scripts to build the Electron App and let it ready to distribute. This could be done following [electron-builder](https://www.electron.build/) Documentation and OS Specific cases.
+* Needs optimized `script` to launch development in Electron at once.
 
 ### VSCODE Workspace Settings
 

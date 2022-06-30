@@ -12,7 +12,8 @@ const createWindow = () => {
 			nodeIntegration: true
 		}
 	});
-	mainWindow.loadFile("../public/index.html");
+	mainWindow.loadURL("http://localhost:3000");
+	// mainWindow.loadFile("../public/index.html");
 };
 
 app.whenReady().then(() => {
