@@ -1,10 +1,10 @@
-# Svelte-PageJS
+# Svelte-Page
 
 ### Usage:
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#pagejs`
+`npx degit MrAmericanMike/svelte-template#page`
 
 `npm install`
 
