@@ -2,18 +2,19 @@
 	"name": "svelte-electron",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview",
+		"dev": "concurrently --kill-others \"electron src/main.js\" \"npm run vite:dev\"",
+		"vite:dev": "vite",
+		"vite:build": "vite build",
+		"vite:preview": "vite preview",
 		"electron": "electron src/main.js"
 	},
 	"devDependencies": {
-		"svelte": "^3.48.0",
-		"@sveltejs/vite-plugin-svelte": "1.0.0-next.49",
-		"vite": "^2.9.13",
-		"electron": "^19.0.6",
+		"@sveltejs/vite-plugin-svelte": "1.0.4",
+		"concurrently": "^7.3.0",
+		"electron": "^20.1.1",
 		"electron-reload": "2.0.0-alpha.1",
-		"eslint": "^8.18.0"
-	},
-	"dependencies": {}
+		"eslint": "^8.23.0",
+		"svelte": "^3.50.0",
+		"vite": "^3.0.9"
+	}
 }

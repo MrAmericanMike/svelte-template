@@ -2,7 +2,6 @@
 
 This template uses the Svelte-Base branch and on top of it adds Electron.
 Changes for this branch. `main.js` (The Svelte entry point) is now `app.js`
-(Changed `rollup.config.js` to reflect this change)
 `main.js` is the Electron App entry point.
 
 This package comes with hot-reload while using `npm run dev`
@@ -17,8 +16,6 @@ In the folder we want to install the template
 
 `npm run dev`
 
-`npm run electron`
-
 ***
 
 Installed on VSCode:
@@ -29,6 +26,7 @@ Installed on VSCode:
 
 * Still haven't added scripts to build the Electron App and let it ready to distribute. This could be done following [electron-builder](https://www.electron.build/) Documentation and OS Specific cases.
 * Needs optimized `script` to launch development in Electron at once.
+* https://www.youtube.com/watch?v=yEmtAKyiLtQ
 
 ### VSCODE Workspace Settings
 
