@@ -3,12 +3,5 @@
 </script>
 
 <NavBar />
-<main>
-	<slot />
-</main>
 
-<style>
-	main {
-		text-align: center;
-	}
-</style>
+<slot />

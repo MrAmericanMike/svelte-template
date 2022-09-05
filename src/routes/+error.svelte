@@ -1,13 +1,10 @@
 <script>
 	import { page } from "$app/stores";
-	let world = "Error 404";
+
+	let message = "Error";
 </script>
 
-<svelte:head>
-	<title>Svelte · Error</title>
-</svelte:head>
-
-<h1>¡Hola {world}!</h1>
+<h1>Hello {message}</h1>
 <h2>{$page.url.pathname} not found</h2>
 
 <style>
@@ -15,9 +12,11 @@
 		color: royalblue;
 		text-transform: uppercase;
 		font-size: 4em;
+		text-align: center;
 	}
 	h2 {
 		color: royalblue;
 		font-size: 2.5em;
+		text-align: center;
 	}
 </style>
