@@ -1,14 +1,15 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
 	width: 100vw;
 	height: 100vh;
 }
 
-body{
+body {
 	background-color: #202025;
 }
