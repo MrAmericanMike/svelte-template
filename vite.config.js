@@ -3,6 +3,12 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 export default defineConfig({
 	root: "src",
+	server: {
+		port: 3000
+	},
+	preview: {
+		port: 8080
+	},
 	build: {
 		minify: true,
 		assetsInlineLimit: 0,
@@ -17,4 +23,3 @@ export default defineConfig({
 	},
 	plugins: [svelte()]
 });
-
