@@ -14,7 +14,6 @@ const config = {
 			appTemplate: "src/index.html"
 		},
 		appDir: "app",
-		trailingSlash: "always",
 		serviceWorker: {
 			register: false
 		}
