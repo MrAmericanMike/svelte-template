@@ -1,18 +1,10 @@
 <script>
-	let world = "Mundo";
+	import Router from "./Router.svelte";
 </script>
 
 <main>
-	<h1>¡Hola {world}!</h1>
+	<Router />
 </main>
 
 <style>
-	main {
-		text-align: center;
-	}
-	h1 {
-		color: royalblue;
-		text-transform: uppercase;
-		font-size: 6em;
-	}
 </style>
