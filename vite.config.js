@@ -1,4 +1,5 @@
 import { sveltekit } from "@sveltejs/kit/vite";
+import { resolve } from "path";
 
 /** @type {import("vite").UserConfig} */
 const config = {
@@ -11,6 +12,11 @@ const config = {
 	},
 	build: {
 		emptyOutDir: true
+	},
+	resolve: {
+		alias: {
+			$: resolve("./src")
+		}
 	}
 };
 
