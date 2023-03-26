@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Svelte Web Components</title>
+	<!-- <script src="//unpkg.com/redefine-custom-elements@0.1.2/lib/index.js"></script> -->
+</head>
+
+<body>
+	<my-counter></my-counter>
+	<my-clock></my-clock>
+	<button id="increment">Increment</button>
+	<script>
+		// const _define = customElements.define;
+		// customElements.define = (name, CustomElement, options) => {
+		// 	const nativeDef = _define.bind(customElements);
+		// 	nativeDef(name, CustomElement, options);
+		// 	setTimeout(() => {
+		// 		[...document.querySelectorAll(name)].forEach((element) => {
+		// 			const container = document.createElement("div");
+		// 			container.innerHTML = element.outerHTML;
+		// 			const newNode = container.firstElementChild;
+		// 			element.parentNode.replaceChild(newNode, element);
+		// 		});
+		// 	}, 0);
+		// };
+	</script>
+	<script type="module" src="/main.js"></script>
+	<script>
+		window.addEventListener("countIncrementEvent", (event) => {
+			console.log(event.detail);
+		}, true);
+
+		const button = document.querySelector("#increment");
+		button.addEventListener("click", () => {
+			const incrementEvent = new CustomEvent("incrementCount", { composed: true });
+			window.dispatchEvent(incrementEvent);
+		});
+
+	</script>
+</body>
+
+</html>

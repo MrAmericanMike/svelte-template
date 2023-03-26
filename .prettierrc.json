@@ -1,0 +1,23 @@
+{
+	"svelteSortOrder": "scripts-markup-styles",
+	"arrowParens": "always",
+	"bracketSameLine": true,
+	"bracketSpacing": true,
+	"embeddedLanguageFormatting": "auto",
+	"endOfLine": "crlf",
+	"htmlWhitespaceSensitivity": "css",
+	"insertPragma": false,
+	"jsxSingleQuote": false,
+	"printWidth": 160,
+	"proseWrap": "preserve",
+	"quoteProps": "preserve",
+	"requirePragma": false,
+	"semi": true,
+	"singleAttributePerLine": false,
+	"singleQuote": false,
+	"tabWidth": 4,
+	"trailingComma": "none",
+	"useTabs": true,
+	"vueIndentScriptAndStyle": false,
+	"resolveGlobalModules": true
+}
