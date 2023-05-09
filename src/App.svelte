@@ -1,9 +1,10 @@
 <script>
-	let world = "Mundo";
+	import "./global.css";
+	let world = "World";
 </script>
 
 <main>
-	<h1>¡Hola {world}!</h1>
+	<h1>¡Hello {world}!</h1>
 </main>
 
 <style>
@@ -13,6 +14,6 @@
 	h1 {
 		color: royalblue;
 		text-transform: uppercase;
-		font-size: 6em;
+		font-size: 4em;
 	}
 </style>
