@@ -1,4 +1,5 @@
 import adapter from "@sveltejs/adapter-static";
+import { resolve } from "path";
 
 /** @type {import("@sveltejs/kit").Config} */
 const config = {
@@ -16,6 +17,9 @@ const config = {
 		appDir: "app",
 		serviceWorker: {
 			register: false
+		},
+		alias: {
+			$: resolve("./src")
 		}
 	}
 };
