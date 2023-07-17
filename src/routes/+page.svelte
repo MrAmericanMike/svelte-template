@@ -1,8 +1,10 @@
 <script>
-	let message = "World";
+	export let data;
+
+	console.log(data.message);
 </script>
 
-<h1>Hello {message}</h1>
+<h1>Hello {data.message}</h1>
 
 <style>
 	h1 {
