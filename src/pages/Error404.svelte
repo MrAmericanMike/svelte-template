@@ -3,7 +3,7 @@
 	let world = "Error 404";
 </script>
 
-<h1>¡Hola {world}!</h1>
+<h1>¡Hello {world}!</h1>
 <h2>{params[0]} not found</h2>
 
 <style>

@@ -1,8 +1,8 @@
 <script>
-	let world = "Acerca de";
+	let world = "About";
 </script>
 
-<h1>¡Hola {world}!</h1>
+<h1>¡Hello {world}!</h1>
 
 <style>
 	h1 {

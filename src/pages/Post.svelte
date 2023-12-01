@@ -3,7 +3,7 @@
 	let world = "Post";
 </script>
 
-<h1>¡Hola {world}!</h1>
+<h1>¡Hello {world}!</h1>
 <h2>ID is {params.id}</h2>
 
 <style>

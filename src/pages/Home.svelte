@@ -1,8 +1,8 @@
 <script>
-	let world = "Mundo";
+	let world = "World";
 </script>
 
-<h1>¡Hola {world}!</h1>
+<h1>¡Hello {world}!</h1>
 
 <style>
 	h1 {
