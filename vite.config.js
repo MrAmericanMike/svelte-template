@@ -14,7 +14,7 @@ export default defineConfig({
 		assetsInlineLimit: 0,
 		outDir: "../dist",
 		lib: {
-			entry: "./src/main.js",
+			entry: "./main.js",
 			name: "SvelteWebComponents",
 			formats: ["cjs", "es", "iife", "umd"]
 		},
