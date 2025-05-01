@@ -1,8 +1,8 @@
-<svelte:options tag="my-clock" />
+<svelte:options customElement="my-clock" />
 
 <script>
-	import { onMount, onDestroy } from "svelte";
-	let date = new Date().toLocaleTimeString() || "";
+	import { onDestroy, onMount } from "svelte";
+	let date = $state(new Date().toLocaleTimeString() || "");
 	let interval;
 
 	onMount(() => {

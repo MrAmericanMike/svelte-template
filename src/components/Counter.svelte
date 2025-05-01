@@ -1,8 +1,8 @@
-<svelte:options tag="my-counter" accessors={true} />
+<svelte:options customElement="my-counter" />
 
 <script>
 	import { onMount } from "svelte";
-	let count = 0;
+	let count = $state(0);
 	function increment(event) {
 		count += 1;
 		const countIncrementEvent = new CustomEvent("countIncrementEvent", { detail: { count: count }, composed: true });
@@ -18,7 +18,7 @@
 	});
 </script>
 
-<button on:click={increment}>
+<button onclick={increment}>
 	Count is {count}
 </button>
 
