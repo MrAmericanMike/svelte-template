@@ -4,18 +4,23 @@
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#lib`
+`pnpx degit MrAmericanMike/svelte-template#lib`
 
-`npm install`
+`pnpm install`
 
-`npm run dev`
+`pnpm run dev`
+
+---
+
+## TODO:
+
+This template needs an implementation example
 
 ---
 
 Installed on VSCode:
 
--   https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
--   https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
+- https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
 
 ### VSCODE Workspace Settings
 
@@ -37,9 +42,10 @@ Installed on VSCode:
 
 ## Why this repo is even a thing?
 
--   It presets most of the linting options I like
--   It provides a base to work with Svelte under different scenarios
+- It presets most of the linting options I like
+- It provides a base to work with Svelte under different scenarios
 
 ---
 
 ## Any feedback is welcome, just create an [issue](https://github.com/MrAmericanMike/svelte-template/issues)
+
