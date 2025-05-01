@@ -14,7 +14,6 @@ In the folder we want to install the template
 
 Installed on VSCode:
 
--   https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 -   https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode
 
 ### VSCODE Workspace Settings
