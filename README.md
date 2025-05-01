@@ -4,11 +4,11 @@
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#web-components`
+`pnpx degit MrAmericanMike/svelte-template#web-components`
 
-`npm install`
+`pnpm install`
 
-`npm run dev`
+`pnpm run dev`
 
 ---
 
