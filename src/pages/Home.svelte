@@ -1,12 +1,12 @@
 <script>
-	let world = "Mundo";
+	let world = $state("Mundo");
 </script>
 
 <div class="ion-page" id="main-content">
 	<ion-header>
 		<ion-toolbar>
 			<ion-buttons slot="start">
-				<ion-menu-button />
+				<ion-menu-button></ion-menu-button>
 			</ion-buttons>
 			<ion-title>Home</ion-title>
 		</ion-toolbar>

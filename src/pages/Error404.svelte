@@ -1,12 +1,12 @@
 <script>
-	export let params;
+	let { params } = $props();
 </script>
 
 <div class="ion-page" id="main-content">
 	<ion-header>
 		<ion-toolbar>
 			<ion-buttons slot="start">
-				<ion-menu-button />
+				<ion-menu-button></ion-menu-button>
 			</ion-buttons>
 			<ion-title>Error 404</ion-title>
 		</ion-toolbar>

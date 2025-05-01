@@ -18,7 +18,7 @@
 			<ion-router-link href="/">
 				<ion-menu-toggle>
 					<ion-item>
-						<ion-icon name="home" slot="start" />
+						<ion-icon name="home" slot="start"></ion-icon>
 						<ion-label>Home</ion-label>
 					</ion-item>
 				</ion-menu-toggle>
@@ -26,7 +26,7 @@
 			<ion-router-link href="/about">
 				<ion-menu-toggle>
 					<ion-item>
-						<ion-icon name="person" slot="start" />
+						<ion-icon name="person" slot="start"></ion-icon>
 						<ion-label>About</ion-label>
 					</ion-item>
 				</ion-menu-toggle>
@@ -34,7 +34,7 @@
 			<ion-router-link href="/post/13">
 				<ion-menu-toggle>
 					<ion-item>
-						<ion-icon name="newspaper" slot="start" />
+						<ion-icon name="newspaper" slot="start"></ion-icon>
 						<ion-label>Post</ion-label>
 					</ion-item>
 				</ion-menu-toggle>
@@ -42,7 +42,7 @@
 			<ion-router-link href="/golden">
 				<ion-menu-toggle>
 					<ion-item>
-						<ion-icon name="git-branch" slot="start" />
+						<ion-icon name="git-branch" slot="start"></ion-icon>
 						<ion-label>Golden</ion-label>
 					</ion-item>
 				</ion-menu-toggle>
