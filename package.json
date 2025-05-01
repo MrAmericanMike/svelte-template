@@ -1,5 +1,5 @@
 {
-	"name": "svelte-page",
+	"name": "svelte-pwa",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite",
@@ -8,9 +8,9 @@
 	},
 	"type": "module",
 	"devDependencies": {
-		"@sveltejs/vite-plugin-svelte": "3.1.0",
+		"@sveltejs/vite-plugin-svelte": "5.0.3",
 		"page": "1.11.6",
-		"svelte": "4.2.15",
-		"vite": "5.2.10"
+		"svelte": "5.28.2",
+		"vite": "6.3.4"
 	}
 }

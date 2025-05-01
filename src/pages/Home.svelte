@@ -1,5 +1,5 @@
 <script>
-	let world = "World";
+	let world = $state("World");
 </script>
 
 <h1>¡Hello {world}!</h1>

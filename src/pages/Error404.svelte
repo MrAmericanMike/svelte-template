@@ -1,6 +1,6 @@
 <script>
-	export let params;
-	let world = "Error 404";
+	let { params } = $props();
+	let world = $state("Error 404");
 </script>
 
 <h1>¡Hello {world}!</h1>

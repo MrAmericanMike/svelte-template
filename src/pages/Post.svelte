@@ -1,6 +1,6 @@
 <script>
-	export let params = {};
-	let world = "Post";
+	let { params } = $props();
+	let world = $state("Post");
 </script>
 
 <h1>¡Hello {world}!</h1>
