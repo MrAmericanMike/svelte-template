@@ -1,5 +1,5 @@
 {
-	"name": "svelte-basic",
+	"name": "svelte-web-components",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite",
