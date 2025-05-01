@@ -6,11 +6,11 @@ Includes Page for routing
 
 In the folder we want to install the template
 
-`npx degit MrAmericanMike/svelte-template#pwa`
+`pnpx degit MrAmericanMike/svelte-template#pwa`
 
-`npm install`
+`pnpm install`
 
-`npm run dev`
+`pnpm run dev`
 
 ---
 
